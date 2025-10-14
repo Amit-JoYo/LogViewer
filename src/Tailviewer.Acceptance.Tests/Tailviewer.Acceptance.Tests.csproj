@@ -6,6 +6,7 @@
     <AssemblyName>Tailviewer.Acceptance.Tests</AssemblyName>
     <IsPackable>false</IsPackable>
     <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

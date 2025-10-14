@@ -6,9 +6,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Installer")]
 [assembly: AssemblyDescription("Installer for Tailviewer")]
-[assembly: AssemblyProduct("Tailviewer")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

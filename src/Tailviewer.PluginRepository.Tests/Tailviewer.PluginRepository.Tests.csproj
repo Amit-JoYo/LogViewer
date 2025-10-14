@@ -5,6 +5,7 @@
     <RootNamespace>Tailviewer.PluginRepository.Tests</RootNamespace>
     <AssemblyName>Tailviewer.PluginRepository.Tests</AssemblyName>
     <IsPackable>false</IsPackable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

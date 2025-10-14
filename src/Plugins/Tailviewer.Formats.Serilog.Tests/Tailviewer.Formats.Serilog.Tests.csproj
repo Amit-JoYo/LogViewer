@@ -5,6 +5,7 @@
     <RootNamespace>Tailviewer.Serilog.Test</RootNamespace>
     <AssemblyName>Tailviewer.Serilog.Test</AssemblyName>
     <IsPackable>false</IsPackable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

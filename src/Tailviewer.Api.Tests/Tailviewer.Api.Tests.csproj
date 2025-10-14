@@ -5,6 +5,7 @@
     <RootNamespace>Tailviewer.Api.Tests</RootNamespace>
     <AssemblyName>Tailviewer.Api.Tests</AssemblyName>
     <IsPackable>false</IsPackable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
