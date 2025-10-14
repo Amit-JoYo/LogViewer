@@ -572,35 +572,43 @@
     ]
   },
   "packageFolders": {
-    "/home/jules/.nuget/packages/": {}
+    "C:\\Users\\amit.joseph-yogev\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj",
+      "projectUniqueName": "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Archiver\\Tailviewer.Archiver.csproj",
       "projectName": "archive",
-      "projectPath": "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj",
-      "packagesPath": "/home/jules/.nuget/packages/",
-      "outputPath": "/app/src/Tailviewer.Archiver/obj/",
+      "projectPath": "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Archiver\\Tailviewer.Archiver.csproj",
+      "packagesPath": "C:\\Users\\amit.joseph-yogev\\.nuget\\packages\\",
+      "outputPath": "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Archiver\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jules/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\amit.joseph-yogev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/BrukerNugetMarket/_packaging/BrukerNugetMarket/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "/app/src/Tailviewer.Api/Tailviewer.Api.csproj": {
-              "projectPath": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj"
+            "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Api\\Tailviewer.Api.csproj": {
+              "projectPath": "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Api\\Tailviewer.Api.csproj"
             },
-            "/app/src/Tailviewer.Core/Tailviewer.Core.csproj": {
-              "projectPath": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj"
+            "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Core\\Tailviewer.Core.csproj": {
+              "projectPath": "D:\\DEV\\LogViewer\\LogViewer\\src\\Tailviewer.Core\\Tailviewer.Core.csproj"
             }
           }
         }
@@ -661,7 +669,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\amit.joseph-yogev\\.dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
