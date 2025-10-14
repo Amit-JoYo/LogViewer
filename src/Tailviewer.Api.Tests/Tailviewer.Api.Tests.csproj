@@ -6,6 +6,7 @@
     <AssemblyName>Tailviewer.Api.Tests</AssemblyName>
     <IsPackable>false</IsPackable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>

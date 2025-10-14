@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/6TEXgAH1gY=",
+  "dgSpecHash": "lVPFL//Pmvw=",
   "success": true,
   "projectFilePath": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "/home/jules/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "/home/jules/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",
     "/home/jules/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512",
-    "/home/jules/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/home/jules/.nuget/packages/system.threading.extensions/2.0.72/system.threading.extensions.2.0.72.nupkg.sha512",
     "/home/jules/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.20/microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512"
   ],
   "logs": []
