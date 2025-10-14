@@ -307,11 +307,11 @@ namespace Tailviewer
 			builder.AppendFormat("Build date: {0}", Constants.BuildDate);
 			builder.AppendLine();
 
-			builder.AppendFormat(".NET Environment: {0}", Environment.Version);
+			builder.AppendFormat(".NET Environment: {0}", System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription);
 			builder.AppendLine();
 
 			builder.AppendFormat("Operating System: {0}, {1}",
-			                     Environment.OSVersion,
+			                     System.Runtime.InteropServices.RuntimeInformation.OSDescription,
 			                     Environment.Is64BitOperatingSystem ? "64bit" : "32bit");
 			builder.AppendLine();
 
