@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Threading;
+using System.Threading.Tasks;
 using Tailviewer.Api;
 
 // ReSharper disable once CheckNamespace

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>Tailviewer.PluginRepository.Tests</RootNamespace>
     <AssemblyName>Tailviewer.PluginRepository.Tests</AssemblyName>
     <IsPackable>false</IsPackable>

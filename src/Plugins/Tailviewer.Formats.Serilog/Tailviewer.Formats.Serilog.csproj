@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>Tailviewer.Formats.Serilog</RootNamespace>
     <AssemblyName>Tailviewer.Formats.Serilog</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>

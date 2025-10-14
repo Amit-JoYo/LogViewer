@@ -1,0 +1,450 @@
+{
+  "format": 1,
+  "restore": {
+    "/app/src/Installer/Installer.csproj": {}
+  },
+  "projects": {
+    "/app/src/Installer/Installer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/app/src/Installer/Installer.csproj",
+        "projectName": "Tailviewer-setup",
+        "projectPath": "/app/src/Installer/Installer.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/src/Installer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jules/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "/app/src/Tailviewer.Api/Tailviewer.Api.csproj": {
+                "projectPath": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj"
+              },
+              "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj": {
+                "projectPath": "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj"
+              },
+              "/app/src/Tailviewer.Core/Tailviewer.Core.csproj": {
+                "projectPath": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj"
+              },
+              "/app/src/Tailviewer/Tailviewer.csproj": {
+                "projectPath": "/app/src/Tailviewer/Tailviewer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Metrolib": {
+              "target": "Package",
+              "version": "[0.3.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/app/src/Tailviewer.Api/Tailviewer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj",
+        "projectName": "Tailviewer.Api",
+        "projectPath": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/src/Tailviewer.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jules/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj",
+        "projectName": "archive",
+        "projectPath": "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/src/Tailviewer.Archiver/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jules/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "/app/src/Tailviewer.Api/Tailviewer.Api.csproj": {
+                "projectPath": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj"
+              },
+              "/app/src/Tailviewer.Core/Tailviewer.Core.csproj": {
+                "projectPath": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Metrolib": {
+              "target": "Package",
+              "version": "[0.3.1, )"
+            },
+            "PE": {
+              "target": "Package",
+              "version": "[0.1.13, )"
+            },
+            "SharpRemote": {
+              "target": "Package",
+              "version": "[0.6.184, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/app/src/Tailviewer.Core/Tailviewer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj",
+        "projectName": "Tailviewer.Core",
+        "projectPath": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/src/Tailviewer.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jules/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "/app/src/Tailviewer.Api/Tailviewer.Api.csproj": {
+                "projectPath": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Metrolib": {
+              "target": "Package",
+              "version": "[0.3.1, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/app/src/Tailviewer/Tailviewer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/app/src/Tailviewer/Tailviewer.csproj",
+        "projectName": "Tailviewer",
+        "projectPath": "/app/src/Tailviewer/Tailviewer.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/src/Tailviewer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jules/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "/app/src/Tailviewer.Api/Tailviewer.Api.csproj": {
+                "projectPath": "/app/src/Tailviewer.Api/Tailviewer.Api.csproj"
+              },
+              "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj": {
+                "projectPath": "/app/src/Tailviewer.Archiver/Tailviewer.Archiver.csproj"
+              },
+              "/app/src/Tailviewer.Core/Tailviewer.Core.csproj": {
+                "projectPath": "/app/src/Tailviewer.Core/Tailviewer.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MMQ": {
+              "target": "Package",
+              "version": "[1.0.15, )"
+            },
+            "Metrolib": {
+              "target": "Package",
+              "version": "[0.3.1, )"
+            },
+            "Ookii.Dialogs.Wpf.NETCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "SharpRemote": {
+              "target": "Package",
+              "version": "[0.6.184, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jules/.dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
